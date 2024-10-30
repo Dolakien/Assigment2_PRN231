@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PRN231_PE_SE173539_SilverJewery.props" />
+</Project>

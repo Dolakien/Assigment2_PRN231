@@ -1,0 +1,6 @@
+@PRN231_PE_SE173539_SilverJewery_HostAddress = http://localhost:5204
+
+GET {{PRN231_PE_SE173539_SilverJewery_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

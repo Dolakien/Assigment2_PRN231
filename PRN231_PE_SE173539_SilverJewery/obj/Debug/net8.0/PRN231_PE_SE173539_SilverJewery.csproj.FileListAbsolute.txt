@@ -83,3 +83,4 @@ C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\PRN231_PE_SE173
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\PRN231_PE_SE173539_SilverJewery\obj\Debug\net8.0\PRN231_PE_SE173539_SilverJewery.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\PRN231_PE_SE173539_SilverJewery\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\PRN231_PE_SE173539_SilverJewery\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\PRN231_PE_SE173539_SilverJewery\obj\Debug\net8.0\PRN231_PE_SE173539_SilverJewery.sourcelink.json

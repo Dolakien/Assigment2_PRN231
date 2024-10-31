@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Authen/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVuXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Authen/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVuXExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

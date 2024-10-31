@@ -8558,7 +8558,8 @@
       "DataAccessObject >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
-      "PRN231_PE_SE173539_SilverJewery >= 1.0.0"
+      "PRN231_PE_SE173539_SilverJewery >= 1.0.0",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8597,6 +8598,9 @@
             },
             "C:\\Users\\PC\\Desktop\\Chuyên Ngành\\Kì 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj": {
               "projectPath": "C:\\Users\\PC\\Desktop\\Chuyên Ngành\\Kì 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj"
+            },
+            "C:\\Users\\PC\\Desktop\\Chuyên Ngành\\Kì 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\Chuyên Ngành\\Kì 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Repository.csproj"
             }
           }
         }

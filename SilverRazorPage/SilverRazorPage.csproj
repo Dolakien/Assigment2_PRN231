@@ -18,6 +18,7 @@
     <ProjectReference Include="..\BusinessObject\BusinessObject.csproj" />
     <ProjectReference Include="..\DataAccessObject\DataAccessObject.csproj" />
     <ProjectReference Include="..\PRN231_PE_SE173539_SilverJewery\PRN231_PE_SE173539_SilverJewery.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
   </ItemGroup>
 
 </Project>

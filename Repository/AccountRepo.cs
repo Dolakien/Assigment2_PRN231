@@ -39,7 +39,7 @@ namespace Repository
 
         public async Task<LoginResponse> CheckLogin(LoginRequest loginRequest)
         {
-            var result = await AccountDAO.Instance.GetAccountByEmailLogin(loginRequest.email, m => m.Role);
+            var result = await AccountDAO.Instance.GetAccountByEmailLogin(loginRequest.Email, m => m.Role);
             if (result == null)
             {
                 throw new Exception("Not found account with this Email!");
@@ -49,7 +49,7 @@ namespace Repository
             var key = Convert.FromBase64String(result.HmacKey); // Giả sử bạn đã lưu khóa trong model
 
             using var hmac = new HMACSHA512(key); // Sử dụng khóa đã lưu
-            var computeHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginRequest.password));
+            var computeHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginRequest.Password));
             var computedHashString = Convert.ToBase64String(computeHash);
 
             // So sánh hash của mật khẩu đầu vào với AccountPassword
@@ -63,6 +63,7 @@ namespace Repository
                 var loginResponse = new LoginResponse
                 {
                     AccountId = result.AccountId,
+                    Email = result.EmailAddress,
                     FullName = result.FullName,
                     JwtToken = jwtToken,
                     RoleName = result.Role.RoleName,

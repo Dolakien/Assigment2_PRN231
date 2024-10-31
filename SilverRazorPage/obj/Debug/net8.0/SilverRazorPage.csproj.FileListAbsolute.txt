@@ -281,3 +281,4 @@ C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage\bin\Debug\net8.0\Service.pdb
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage\obj\Debug\net8.0\SilverRazorPage.sourcelink.json

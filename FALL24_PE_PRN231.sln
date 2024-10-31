@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessObject", "DataAcc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverRazorPage", "SilverRazorPage\SilverRazorPage.csproj", "{A601F6BE-5022-42DF-95D8-048B759745B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilverRazorPage", "SilverRazorPage\SilverRazorPage.csproj", "{A601F6BE-5022-42DF-95D8-048B759745B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

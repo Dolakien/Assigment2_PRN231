@@ -8,72 +8,65 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.SilverJwelry
 {
     public class EditModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public EditModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public EditModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
+
+        [BindProperty(SupportsGet = true)]
+        public string Id { get; set; } = string.Empty;
 
         [BindProperty]
         public SilverJewelry SilverJewelry { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(Id))
             {
                 return NotFound();
             }
 
-            var silverjewelry =  await _context.SilverJewelries.FirstOrDefaultAsync(m => m.SilverJewelryId == id);
-            if (silverjewelry == null)
+            if (SilverJewelry == null)
             {
-                return NotFound();
+                SilverJewelry = new SilverJewelry();
             }
-            SilverJewelry = silverjewelry;
-           ViewData["AccountId"] = new SelectList(_context.BranchAccounts, "AccountId", "AccountPassword");
-           ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
+            SilverJewelry.SilverJewelryId = Id;
+
+            // Fetch Categories from API
+            var categoryResponse = await _httpClient.GetAsync("http://localhost:5204/api/Category");
+            var categoryData = await categoryResponse.Content.ReadAsStringAsync();
+            var categories = JsonSerializer.Deserialize<List<Category>>(categoryData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            ViewData["CategoryId"] = new SelectList(categories, "CategoryId", "CategoryName"); // Adjust "CategoryName" if necessary
+
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
+
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            // Serialize LoginRequest to JSON
+            var jsonContent = JsonContent.Create(SilverJewelry);
+
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.PutAsync("http://localhost:5204/api/Jwelry/update", jsonContent);
+
+            if (response.IsSuccessStatusCode)
             {
-                return Page();
+                return RedirectToPage("/SilverJwelry/Index"); // Redirect on successful login
             }
-
-            _context.Attach(SilverJewelry).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!SilverJewelryExists(SilverJewelry.SilverJewelryId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return RedirectToPage("./Index");
-        }
-
-        private bool SilverJewelryExists(string id)
-        {
-            return _context.SilverJewelries.Any(e => e.SilverJewelryId == id);
+            return RedirectToPage("/SilverJwelry/Index"); // Redirect on successful login
         }
     }
 }

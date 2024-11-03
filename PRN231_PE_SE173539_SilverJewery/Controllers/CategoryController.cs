@@ -31,7 +31,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
         }
 
         [EnableQuery]
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult GetCategoryById([FromODataUri] string id)
         {
             var enitty = categoryRepo.GetCategory(id);
@@ -72,7 +72,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public IActionResult RemoveCategory(string id)
         {
             var Response = categoryRepo.removeCategory(id);

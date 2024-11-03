@@ -58,7 +58,7 @@ namespace DataAccessObject
             return result;
         }
 
-        public bool UpdateCategory(Category category)
+        public bool updateCategory(Category category)
         {
             bool result = false;
             Category category1 = this.GetCategory(category.CategoryId);

@@ -65,14 +65,7 @@ namespace SilverRazorPage.Pages.SilverJwelry
 
             if (response.IsSuccessStatusCode)
             {
-                var options = new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true,
-                };
-
-                var data = await response.Content.ReadAsStringAsync();
                 return RedirectToPage("/SilverJwelry/Index"); // Redirect on successful login
-
             }
             return RedirectToPage("/SilverJwelry/Index"); // Redirect on successful login
         }

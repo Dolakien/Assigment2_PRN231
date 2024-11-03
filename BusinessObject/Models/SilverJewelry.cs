@@ -8,7 +8,7 @@ public partial class SilverJewelry
 {
     public string SilverJewelryId { get; set; } = null!;
 
-    public string SilverJewelryName { get; set; } = null!;
+    public string? SilverJewelryName { get; set; } = null!;
 
     public string? SilverJewelryDescription { get; set; }
 

@@ -8,70 +8,40 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.RoleAccount
 {
     public class EditModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public EditModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public EditModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
+
 
         [BindProperty]
         public Role Role { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var role =  await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
-            if (role == null)
-            {
-                return NotFound();
-            }
-            Role = role;
-            return Page();
-        }
-
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+
+            // Serialize LoginRequest to JSON
+            var jsonContent = JsonContent.Create(Role);
+
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.PutAsync("http://localhost:5204/api/Role/update", jsonContent);
+
+            if (response.IsSuccessStatusCode)
             {
-                return Page();
+                return RedirectToPage("/Admin/RoleAccount/Index"); // Redirect on successful login
             }
-
-            _context.Attach(Role).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!RoleExists(Role.RoleId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return RedirectToPage("./Index");
-        }
-
-        private bool RoleExists(int id)
-        {
-            return _context.Roles.Any(e => e.RoleId == id);
+            return RedirectToPage("/Admin/RoleAccount/Index"); // Redirect on successful login
         }
     }
 }

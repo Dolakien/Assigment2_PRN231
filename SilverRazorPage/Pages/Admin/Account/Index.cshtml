@@ -14,16 +14,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.BranchAccount[0].AccountPassword)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.BranchAccount[0].HmacKey)
+                @Html.DisplayNameFor(model => model.BranchAccount[0].AccountId)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.BranchAccount[0].FullName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.BranchAccount[0].EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BranchAccount[0].AccountPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BranchAccount[0].HmacKey)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.BranchAccount[0].RoleId)
@@ -34,17 +37,20 @@
     <tbody>
 @foreach (var item in Model.BranchAccount) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AccountId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AccountPassword)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.HmacKey)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EmailAddress)
             </td>
             <td>
                     @Html.DisplayFor(modelItem => item.RoleId)

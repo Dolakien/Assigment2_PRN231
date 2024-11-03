@@ -25,6 +25,6 @@ namespace Repository
 
 
         public bool updateCategory(Category category)
-            => CategoryDAO.Instance.UpdateCategory(category);
+            => CategoryDAO.Instance.updateCategory(category);
     }
 }

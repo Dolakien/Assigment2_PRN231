@@ -74,7 +74,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public IActionResult RemoveSilver(string id)
         {
             var Response = silverJewelryRepo.removeJwelry(id);

@@ -8,71 +8,56 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using Repository.Contract.Request;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.Account
 {
     public class EditModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public EditModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public EditModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
+
 
         [BindProperty]
         public BranchAccount BranchAccount { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            // Fetch Accounts from API
+            var RoleResponse = await _httpClient.GetAsync("http://localhost:5204/api/Role");
+            var RoleData = await RoleResponse.Content.ReadAsStringAsync();
+            var Roles = JsonSerializer.Deserialize<List<Role>>(RoleData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-            var branchaccount =  await _context.BranchAccounts.FirstOrDefaultAsync(m => m.AccountId == id);
-            if (branchaccount == null)
-            {
-                return NotFound();
-            }
-            BranchAccount = branchaccount;
-           ViewData["RoleId"] = new SelectList(_context.Roles, "RoleId", "RoleName");
+            // Populate dropdowns with AccountName and CategoryName
+            ViewData["RoleId"] = new SelectList(Roles, "RoleId", "RoleName"); // Adjust "FullName" if necessary
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
+
+
+
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
-        {
-            if (!ModelState.IsValid)
+        { 
+
+            // Serialize LoginRequest to JSON
+            var jsonContent = JsonContent.Create(BranchAccount);
+
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.PutAsync("http://localhost:5204/api/Account/update", jsonContent);
+
+            if (response.IsSuccessStatusCode)
             {
-                return Page();
+                return RedirectToPage("/Admin/Account/Index"); // Redirect on successful login
             }
-
-            _context.Attach(BranchAccount).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!BranchAccountExists(BranchAccount.AccountId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return RedirectToPage("./Index");
-        }
-
-        private bool BranchAccountExists(int id)
-        {
-            return _context.BranchAccounts.Any(e => e.AccountId == id);
+            return RedirectToPage("/Admin/Account/Index"); // Redirect on successful login
         }
     }
 }

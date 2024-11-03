@@ -6,10 +6,16 @@
 }
 
 <h1>Silver Jewelry</h1>
+                @{
+                    var role = HttpContext.Session.GetString("role");
+                }
 
+                @if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
+                {
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+                }
 <table class="table">
     <thead>
         <tr>
@@ -67,11 +73,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CategoryId)
             </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.SilverJewelryId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.SilverJewelryId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.SilverJewelryId">Delete</a>
-            </td>
+                @if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
+                {
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.SilverJewelryId">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.SilverJewelryId">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.SilverJewelryId">Delete</a>
+                    </td>
+                }
         </tr>
 }
     </tbody>

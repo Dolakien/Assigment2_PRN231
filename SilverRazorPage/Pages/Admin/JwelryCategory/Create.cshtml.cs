@@ -7,22 +7,21 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.JwelryCategory
 {
     public class CreateModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public CreateModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public CreateModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
 
-        public IActionResult OnGet()
-        {
-            return Page();
-        }
 
         [BindProperty]
         public Category Category { get; set; } = default!;
@@ -35,10 +34,17 @@ namespace SilverRazorPage.Pages.Admin.JwelryCategory
                 return Page();
             }
 
-            _context.Categories.Add(Category);
-            await _context.SaveChangesAsync();
+            // Serialize LoginRequest to JSON
+            var jsonContent = JsonContent.Create(Category);
 
-            return RedirectToPage("./Index");
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.PostAsync("http://localhost:5204/api/Category/create", jsonContent);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToPage("/Admin/JwelryCategory/Index"); // Redirect on successful login
+            }
+            return RedirectToPage("/Admin/JwelryCategory/Index"); // Redirect on successful login
         }
     }
 }

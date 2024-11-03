@@ -22,12 +22,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
+
                         @{
                             var role = Context.Session.GetString("role");
                         }
 
                         @if (role != null && role.Equals("Administrator"))
                         {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/SilverJwelry/Index">Silver Jewlry Management</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Admin/JwelryCategory/Index">Category Management</a>
                             </li>
@@ -38,8 +42,12 @@
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Admin/RoleAccount/Index">Role Management</a>
                             </li>
                         }
-
-
+                        @if (role != null && !role.Equals("Administrator"))
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/SilverJwelry/Index">Silver Jewlry Management</a>
+                        </li>
+                        }
 
                     </ul>
                     <ul class="navbar-nav ms-auto"> 

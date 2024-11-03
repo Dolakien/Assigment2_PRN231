@@ -1,46 +1,46 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
-using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.JwelryCategory
 {
     public class EditModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
 
-        public EditModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public EditModel(HttpClient httpClient)
         {
-            _context = context;
+            _httpClient = httpClient;
         }
+
+        [BindProperty(SupportsGet = true)]
+        public string Id { get; set; } = string.Empty;
 
         [BindProperty]
         public Category Category { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public IActionResult OnGet()
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(Id))
             {
                 return NotFound();
             }
 
-            var category =  await _context.Categories.FirstOrDefaultAsync(m => m.CategoryId == id);
-            if (category == null)
+            if (Category == null)
             {
-                return NotFound();
+                Category = new Category();
             }
-            Category = category;
+            Category.CategoryId = Id;
+
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more information, see https://aka.ms/RazorPagesCRUD.
+
+
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -48,30 +48,18 @@ namespace SilverRazorPage.Pages.Admin.JwelryCategory
                 return Page();
             }
 
-            _context.Attach(Category).State = EntityState.Modified;
+            // Chuẩn bị dữ liệu JSON cho Category để gửi đi
+            var jsonContent = JsonContent.Create(Category);
 
-            try
+            // Gọi API PUT để cập nhật Category
+            HttpResponseMessage response = await _httpClient.PutAsync("http://localhost:5204/api/Category/update", jsonContent);
+
+            if (response.IsSuccessStatusCode)
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CategoryExists(Category.CategoryId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return RedirectToPage("/Admin/JwelryCategory/Index"); // Chuyển trang nếu cập nhật thành công
             }
 
-            return RedirectToPage("./Index");
-        }
-
-        private bool CategoryExists(string id)
-        {
-            return _context.Categories.Any(e => e.CategoryId == id);
+            return Page(); // Ở lại trang nếu cập nhật thất bại
         }
     }
 }

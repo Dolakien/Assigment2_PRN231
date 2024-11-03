@@ -13,3 +13,4 @@ C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\DataAccessObjec
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\DataAccessObject\obj\Debug\net8.0\refint\DataAccessObject.dll
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\DataAccessObject\obj\Debug\net8.0\DataAccessObject.pdb
 C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\DataAccessObject\obj\Debug\net8.0\ref\DataAccessObject.dll
+C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\DataAccessObject\obj\Debug\net8.0\DataAccessObject.sourcelink.json

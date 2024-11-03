@@ -26,6 +26,66 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\Chuyên Ngành\Kì 8\PRN231\FALL24_PE_PRN231\SilverRazorPage
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/Account/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/Account/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/JwelryCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSndlbHJ5Q2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/JwelryCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSndlbHJ5Q2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/JwelryCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSndlbHJ5Q2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/JwelryCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSndlbHJ5Q2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/JwelryCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSndlbHJ5Q2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/RoleAccount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZUFjY291bnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/RoleAccount/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZUFjY291bnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/RoleAccount/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZUFjY291bnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/RoleAccount/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZUFjY291bnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Admin/RoleAccount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZUFjY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Authen/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVuXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,32 +102,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/JwelryPages/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSndlbHJ5UGFnZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/JwelryPages/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSndlbHJ5UGFnZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/JwelryPages/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSndlbHJ5UGFnZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/JwelryPages/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSndlbHJ5UGFnZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/JwelryPages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSndlbHJ5UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/SilverJwelry/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lsdmVySndlbHJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/SilverJwelry/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lsdmVySndlbHJ5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/SilverJwelry/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lsdmVySndlbHJ5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/SilverJwelry/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lsdmVySndlbHJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/SilverJwelry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lsdmVySndlbHJ5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/Desktop/Chuyên Ngành/Kì 8/PRN231/FALL24_PE_PRN231/SilverRazorPage/Pages/_ViewImports.cshtml]

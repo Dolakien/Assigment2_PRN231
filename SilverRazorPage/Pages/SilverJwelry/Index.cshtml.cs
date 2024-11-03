@@ -9,19 +9,13 @@ using BusinessObject.Models;
 using DataAccessObject;
 using System.Text.Json;
 
-namespace SilverRazorPage.Pages.JwelryPages
+namespace SilverRazorPage.Pages.SilverJwelry
 {
     public class IndexModel : PageModel
     {
         private readonly HttpClient httpClient;
-
-        public IndexModel()
-        {
-            httpClient = new HttpClient();
-        }
-
-        public IList<Category> Category { get; set; } = default!;
-
+        public IndexModel() { httpClient = new HttpClient(); }
+        public IList<SilverJewelry> SilverJewelry { get; set; } = default!;
         public async Task OnGetAsync()
         {
             HttpResponseMessage response = await httpClient.GetAsync("http://localhost:5204/api/Jwelry");
@@ -30,7 +24,7 @@ namespace SilverRazorPage.Pages.JwelryPages
                 PropertyNameCaseInsensitive = true,
             };
             var data = await response.Content.ReadAsStringAsync();
-            Category = JsonSerializer.Deserialize<List<Category>>(data, options);
+            SilverJewelry = JsonSerializer.Deserialize<List<SilverJewelry>>(data, options);
         }
     }
 }

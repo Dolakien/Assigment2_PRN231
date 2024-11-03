@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
 
-namespace SilverRazorPage.Pages.JwelryPages
+namespace SilverRazorPage.Pages.Admin.RoleAccount
 {
     public class EditModel : PageModel
     {
@@ -21,21 +21,21 @@ namespace SilverRazorPage.Pages.JwelryPages
         }
 
         [BindProperty]
-        public Category Category { get; set; } = default!;
+        public Role Role { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var category =  await _context.Categories.FirstOrDefaultAsync(m => m.CategoryId == id);
-            if (category == null)
+            var role =  await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
+            if (role == null)
             {
                 return NotFound();
             }
-            Category = category;
+            Role = role;
             return Page();
         }
 
@@ -48,7 +48,7 @@ namespace SilverRazorPage.Pages.JwelryPages
                 return Page();
             }
 
-            _context.Attach(Category).State = EntityState.Modified;
+            _context.Attach(Role).State = EntityState.Modified;
 
             try
             {
@@ -56,7 +56,7 @@ namespace SilverRazorPage.Pages.JwelryPages
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CategoryExists(Category.CategoryId))
+                if (!RoleExists(Role.RoleId))
                 {
                     return NotFound();
                 }
@@ -69,9 +69,9 @@ namespace SilverRazorPage.Pages.JwelryPages
             return RedirectToPage("./Index");
         }
 
-        private bool CategoryExists(string id)
+        private bool RoleExists(int id)
         {
-            return _context.Categories.Any(e => e.CategoryId == id);
+            return _context.Roles.Any(e => e.RoleId == id);
         }
     }
 }

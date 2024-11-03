@@ -49,7 +49,7 @@ public partial class SilverJewelry2023DbContext : DbContext
 
             entity.HasOne(d => d.Role).WithMany(p => p.BranchAccounts)
                 .HasForeignKey(d => d.RoleId)
-                .OnDelete(DeleteBehavior.SetNull)
+                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__BranchAcc__RoleI__3A81B327");
         });
 

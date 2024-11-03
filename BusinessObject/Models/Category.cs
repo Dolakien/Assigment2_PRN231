@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace BusinessObject.Models;
 
@@ -13,5 +14,6 @@ public partial class Category
 
     public string? FromCountry { get; set; }
 
+    [JsonIgnore]
     public virtual ICollection<SilverJewelry> SilverJewelries { get; set; } = new List<SilverJewelry>();
 }

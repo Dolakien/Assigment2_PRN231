@@ -5,6 +5,10 @@ using Repository.Contract;
 using Microsoft.AspNetCore.Identity.Data;
 using BusinessObject.Models;
 using Repository.Contract.Request;
+using Microsoft.AspNetCore.OData.Formatter;
+using Microsoft.AspNetCore.OData.Query;
+using Microsoft.AspNetCore.OData.Routing.Controllers;
+using Repository;
 namespace PRN231_PE_SE173539_SilverJewery.Controllers
 {
     [Route("api/[controller]")]
@@ -42,7 +46,46 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
                 : BadRequest(Empty);
         }
 
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateAccount([FromBody] BranchAccount account)
+        {
+            var Response = await _accountRepo.updateAccount(account);
 
+            return Response != null
+                ? Ok(Response)
+                : BadRequest(Empty);
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> RemoveAccount(int id)
+        {
+            var Response = await _accountRepo.removeAccount(id);
+
+            return Response != null
+                ? Ok(Response)
+                : BadRequest(Empty);
+        }
+
+        [EnableQuery]
+        [HttpGet("id")]
+        public IActionResult GetAccountById([FromODataUri] int id)
+        {
+            var enitty = _accountRepo.GetBranchAccountById(id);
+            if (enitty == null)
+            {
+                return NotFound();
+            }
+            return Ok(enitty);
+        }
+
+
+        [EnableQuery]
+        [HttpGet()]
+        public IActionResult GetAllAcount()
+        {
+            return Ok(_accountRepo.GetAccounts());
+        }
 
     }
 }

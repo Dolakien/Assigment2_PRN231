@@ -14,7 +14,9 @@ namespace Repository.Interfaces
         public Task<LoginResponse> CheckLogin(LoginRequest loginRequest);
         public BranchAccount GetBranchAccount(string email, string password);
         public Task<BranchAccount?> addAccount(CreateAccountRequest account);
-        public Task<bool> removeAccount(BranchAccount account);
-        public Task<BranchAccount?> updateAccount(string accountId);
+        public Task<bool> removeAccount(int accountId);
+        public Task<BranchAccount?> updateAccount(BranchAccount account);
+        public Task<BranchAccount> GetBranchAccountById(int id);
+        public List<BranchAccount> GetAccounts();
     }
 }

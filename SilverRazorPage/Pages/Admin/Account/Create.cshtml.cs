@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using BusinessObject.Models;
 using DataAccessObject;
 
-namespace SilverRazorPage.Pages.JwelryPages
+namespace SilverRazorPage.Pages.Admin.Account
 {
     public class CreateModel : PageModel
     {
@@ -21,11 +21,12 @@ namespace SilverRazorPage.Pages.JwelryPages
 
         public IActionResult OnGet()
         {
+        ViewData["RoleId"] = new SelectList(_context.Roles, "RoleId", "RoleName");
             return Page();
         }
 
         [BindProperty]
-        public Category Category { get; set; } = default!;
+        public BranchAccount BranchAccount { get; set; } = default!;
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
@@ -35,7 +36,7 @@ namespace SilverRazorPage.Pages.JwelryPages
                 return Page();
             }
 
-            _context.Categories.Add(Category);
+            _context.BranchAccounts.Add(BranchAccount);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

@@ -14,11 +14,17 @@ namespace Repository
         public bool addJwelry(SilverJewelry silverJewelry)
             => JwelryDAO.Instance.addJwelry(silverJewelry);
 
-        public bool removeJwelry(SilverJewelry silverJewelry)
-            => JwelryDAO.Instance.updateJwekry(silverJewelry);
+        public List<SilverJewelry> GetJwelries()
+            => JwelryDAO.Instance.GetSilverJewelries();
 
-        public bool updateJwelry(string jwelryId)
+        public SilverJewelry GetJwelry(string id)
+            => JwelryDAO.Instance.GetSilverJewelry(id);
+
+        public bool removeJwelry(string jwelryId)
             => JwelryDAO.Instance.removeJwelry(jwelryId);
+
+        public bool updateJwelry(SilverJewelry silverJewelry)
+            => JwelryDAO.Instance.updateJwekry(silverJewelry);
 
     }
 }

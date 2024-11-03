@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
 
-namespace SilverRazorPage.Pages.JwelryPages
+namespace SilverRazorPage.Pages.SilverJwelry
 {
     public class DetailsModel : PageModel
     {
@@ -19,7 +19,7 @@ namespace SilverRazorPage.Pages.JwelryPages
             _context = context;
         }
 
-        public Category Category { get; set; } = default!;
+        public SilverJewelry SilverJewelry { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -28,14 +28,14 @@ namespace SilverRazorPage.Pages.JwelryPages
                 return NotFound();
             }
 
-            var category = await _context.Categories.FirstOrDefaultAsync(m => m.CategoryId == id);
-            if (category == null)
+            var silverjewelry = await _context.SilverJewelries.FirstOrDefaultAsync(m => m.SilverJewelryId == id);
+            if (silverjewelry == null)
             {
                 return NotFound();
             }
             else
             {
-                Category = category;
+                SilverJewelry = silverjewelry;
             }
             return Page();
         }

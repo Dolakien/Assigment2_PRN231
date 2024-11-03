@@ -67,7 +67,7 @@ namespace SilverRazorPage.Pages.Authen
                     return Page();
                 }
 
-                return RedirectToPage("/JwelryPages/Index"); // Redirect on successful login
+                return RedirectToPage("/SilverJwelry/Index"); // Redirect on successful login
             }
             else
             {

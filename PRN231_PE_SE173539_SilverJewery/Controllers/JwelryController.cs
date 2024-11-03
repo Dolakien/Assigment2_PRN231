@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BusinessObject.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Formatter;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
+using Repository.Contract.Request;
+using Repository;
 using Repository.Interfaces;
 
 namespace PRN231_PE_SE173539_SilverJewery.Controllers
@@ -25,16 +28,16 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
 
         [EnableQuery]
         [HttpGet]
-        public IActionResult GetAllCategories()
+        public IActionResult GetAllJwelries()
         {
-            return Ok(categoryRepo.GetCategories());
+            return Ok(silverJewelryRepo.GetJwelries());
         }
 
         [EnableQuery]
         [HttpGet("id")]
-        public IActionResult GetCategoryById([FromODataUri] string id)
+        public IActionResult GetJwelryById([FromODataUri] string id)
         {
-            var enitty = categoryRepo.GetCategory(id);
+            var enitty = silverJewelryRepo.GetJwelry(id);
             if (enitty == null)
             {
                 return NotFound();
@@ -42,12 +45,48 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
             return Ok(enitty);
         }
 
+        [HttpPost("create")]
+        public IActionResult Createjwelry([FromBody] SilverJewelry silverJewelry)
+        {
+            var Response = silverJewelryRepo.addJwelry(silverJewelry);
 
+            if (Response)
+            {
+                return Ok("Success!");
+            }
+            else { 
+                return BadRequest("Fail!");
+            }
+        }
 
+        [HttpPut("update")]
+        public IActionResult UpdateSilver([FromBody] SilverJewelry silverJewelry)
+        {
+            var Response = silverJewelryRepo.updateJwelry(silverJewelry);
 
+            if (Response)
+            {
+                return Ok("Success!");
+            }
+            else
+            {
+                return BadRequest("Fail!");
+            }
+        }
 
+        [HttpDelete("{id}")]
+        public IActionResult RemoveSilver(string id)
+        {
+            var Response = silverJewelryRepo.removeJwelry(id);
 
-
-
+            if (Response)
+            {
+                return Ok("Success!");
+            }
+            else
+            {
+                return BadRequest("Fail!");
+            }
+        }
     }
 }

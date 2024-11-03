@@ -13,7 +13,7 @@ namespace Repository.Interfaces
         public Category GetCategory(string id);
         public List<Category> GetCategories();
         public bool addCategory(Category category);
-        public bool removeCategory(Category category);
-        public bool updateCategory(string categoryId);
+        public bool removeCategory(string categoryId);
+        public bool updateCategory(Category category); 
     }
 }

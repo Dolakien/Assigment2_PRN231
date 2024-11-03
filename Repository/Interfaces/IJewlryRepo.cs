@@ -9,8 +9,10 @@ namespace Repository.Interfaces
 {
     public interface IJewlryRepo
     {
+        public SilverJewelry GetJwelry(string id);
+        public List<SilverJewelry> GetJwelries();
         public bool addJwelry(SilverJewelry silverJewelry);
-        public bool removeJwelry(SilverJewelry silverJewelry);
-        public bool updateJwelry(string jwelryId);
+        public bool removeJwelry(string jwelryId);
+        public bool updateJwelry(SilverJewelry silverJewelry); 
     }
 }

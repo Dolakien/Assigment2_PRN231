@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\authen\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,20 +35,56 @@
       "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\authen\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\authen\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\silverjewelry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\silverjewelry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\branchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\branchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\accountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,12 +95,220 @@
       "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\contract\\request\\createaccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\contract\\request\\createaccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\authen\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\jwelrydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\jwelrydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\silverjewelry2023dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\silverjewelry2023dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\roledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\roledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\rolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\rolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\jwtoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\jwtoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\jwelrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\jwelrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\icatrgoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\icatrgoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\authen\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\roleaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\roleaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\silverjwelry\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\silverjwelry\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\admin\\jwelrycategory\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\admin\\jwelrycategory\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\ijewlryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\ijewlryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\irolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\irolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\jwelryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\jwelryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\mapper\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\mapper\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\contract\\request\\createaccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\contract\\request\\createaccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\contract\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,30 +319,6 @@
       "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\authen\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\authen\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\silverjewelry2023dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\silverjewelry2023dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\jwelrydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\jwelrydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -83,104 +327,12 @@
       "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\contract\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\jwelrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\jwelrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\dataaccessobject\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CD22BB-38E5-41A8-8D22-C4C6DEB54CF5}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\branchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\branchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\icatrgoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\icatrgoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\interfaces\\ijewlryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\ijewlryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\mapper\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\mapper\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\jwelryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\jwelryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\jwtoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\jwtoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EBB2AD-ED8A-47D2-AAB9-79CBA22571E7}|Repository\\Repository.csproj|solutionrelative:repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\prn231_pe_se173539_silverjewery\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C287A9-296A-42DB-8C49-86369344BB77}|PRN231_PE_SE173539_SilverJewery\\PRN231_PE_SE173539_SilverJewery.csproj|solutionrelative:prn231_pe_se173539_silverjewery\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\businessobject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4075BD7-C47B-48AE-B10D-1DC4918B38CA}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|c:\\users\\pc\\desktop\\chuy\u00EAn ng\u00E0nh\\k\u00EC 8\\prn231\\fall24_pe_prn231\\silverrazorpage\\pages\\jwelrypages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A601F6BE-5022-42DF-95D8-048B759745B0}|SilverRazorPage\\SilverRazorPage.csproj|solutionrelative:silverrazorpage\\pages\\jwelrypages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,7 +342,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,111 +350,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Login.cshtml.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Login.cshtml.cs",
               "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Login.cshtml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwE0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAvwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T08:38:40.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwDwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:28:15.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml.cs",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAABRAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:13:06.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:27:11.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:57:09.871Z",
+              "WhenOpened": "2024-11-03T10:28:16.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AccountRepo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\AccountRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\AccountRepo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\AccountRepo.cs",
-              "RelativeToolTip": "Repository\\AccountRepo.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAApwD8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:41:24.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T09:13:06.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T08:52:53.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T09:26:50.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -315,309 +415,341 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Response\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "Repository\\Contract\\Response\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Response\\LoginResponse.cs",
-              "RelativeToolTip": "Repository\\Contract\\Response\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:28:15.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:28:15.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:55:01.711Z",
+              "WhenOpened": "2024-10-31T09:27:11.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CreateAccountRequest.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\CreateAccountRequest.cs",
-              "RelativeDocumentMoniker": "Repository\\Contract\\Request\\CreateAccountRequest.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\CreateAccountRequest.cs",
-              "RelativeToolTip": "Repository\\Contract\\Request\\CreateAccountRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:49:17.139Z",
+              "WhenOpened": "2024-11-03T10:26:30.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:26:31.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:26:30.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Program.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Program.cs",
-              "RelativeToolTip": "SilverRazorPage\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T08:51:57.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:33:50.887Z",
+              "WhenOpened": "2024-11-03T10:26:30.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Login.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Login.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Login.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Login.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCcAAAAEAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T08:38:38.181Z",
+              "WhenOpened": "2024-11-03T10:26:30.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:26:30.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "SilverJewelry2023DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\SilverJewelry2023DbContext.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\SilverJewelry2023DbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\SilverJewelry2023DbContext.cs",
-              "RelativeToolTip": "DataAccessObject\\SilverJewelry2023DbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wC0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:55:48.075Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:26:30.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "AccountDAO.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\AccountDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\AccountDAO.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\AccountDAO.cs",
-              "RelativeToolTip": "DataAccessObject\\AccountDAO.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T08:47:43.547Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:26:30.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "JwelryDAO.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\JwelryDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\JwelryDAO.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\JwelryDAO.cs",
-              "RelativeToolTip": "DataAccessObject\\JwelryDAO.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAAJAAAAAAAAAA==",
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Role.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:08:53.205Z",
+              "WhenOpened": "2024-10-30T15:36:29.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T09:13:05.163Z",
+              "Title": "SilverJewelry.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\SilverJewelry.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\SilverJewelry.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\SilverJewelry.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\SilverJewelry.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:39:46.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T08:52:36.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Repository\\Contract\\Request\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\LoginRequest.cs",
-              "RelativeToolTip": "Repository\\Contract\\Request\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:56:26.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "JwelryController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
-              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
-              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:58:33.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CategoryDAO.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\CategoryDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObject\\CategoryDAO.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\CategoryDAO.cs",
-              "RelativeToolTip": "DataAccessObject\\CategoryDAO.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:01:11.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Category.cs",
-              "RelativeToolTip": "BusinessObject\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:35:07.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "BranchAccount.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\BranchAccount.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Models\\BranchAccount.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\BranchAccount.cs",
               "RelativeToolTip": "BusinessObject\\Models\\BranchAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T15:35:07.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ICatrgoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\ICatrgoryRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICatrgoryRepo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\ICatrgoryRepo.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\ICatrgoryRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Category.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:48:09.946Z",
+              "WhenOpened": "2024-10-30T15:35:07.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:33:50.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccountRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\AccountRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\AccountRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\AccountRepo.cs",
+              "RelativeToolTip": "Repository\\AccountRepo.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:41:24.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:57:09.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T09:26:50.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:27:18.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:32:34.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "IAccountRepo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IAccountRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IAccountRepo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IAccountRepo.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IAccountRepo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAAABAAAAAAAAAA==",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Index.cshtml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:42:01.289Z",
+              "WhenOpened": "2024-11-03T10:32:35.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\appsettings.json",
-              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\appsettings.json",
-              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T09:46:58.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IJwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJwtProvider.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IJwtProvider.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJwtProvider.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IJwtProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Title": "JwelryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\JwelryDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\JwelryDAO.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\JwelryDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\JwelryDAO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:18:59.926Z",
+              "WhenOpened": "2024-10-08T09:08:53.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "Repository\\JwtProvider.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwtProvider.cs",
-              "RelativeToolTip": "Repository\\JwtProvider.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAuwDwAAAAAAAAAAAAAAA==",
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\CategoryDAO.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\CategoryDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\CategoryDAO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvx0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:19:26.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\BusinessObject\\Models\\Role.cs",
-              "RelativeToolTip": "BusinessObject\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:36:29.383Z"
+              "WhenOpened": "2024-10-08T09:01:11.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
-              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\AccountDAO.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\AccountDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\AccountDAO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:43:27.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IJewlryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJewlryRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IJewlryRepo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJewlryRepo.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IJewlryRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:14:21.923Z"
+              "WhenOpened": "2024-10-08T08:47:43.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "ServiceProfile.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Mapper\\ServiceProfile.cs",
-              "RelativeDocumentMoniker": "Repository\\Mapper\\ServiceProfile.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Mapper\\ServiceProfile.cs",
-              "RelativeToolTip": "Repository\\Mapper\\ServiceProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "RoleDAO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\RoleDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\RoleDAO.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\RoleDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\RoleDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:08:02.472Z"
+              "WhenOpened": "2024-11-01T08:29:41.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -627,25 +759,53 @@
               "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Program.cs",
               "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAewBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:46:59.033Z"
+              "WhenOpened": "2024-10-08T09:46:59.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SilverJewelry2023DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\SilverJewelry2023DbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\SilverJewelry2023DbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\DataAccessObject\\SilverJewelry2023DbContext.cs",
+              "RelativeToolTip": "DataAccessObject\\SilverJewelry2023DbContext.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswD8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:55:48.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "JwelryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwelryRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\JwelryRepo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwelryRepo.cs",
-              "RelativeToolTip": "Repository\\JwelryRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Index.cshtml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:37:49.256Z"
+              "WhenOpened": "2024-11-03T10:27:18.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoryRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\CategoryRepo.cs",
+              "RelativeToolTip": "Repository\\CategoryRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:48:19.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "JwtOption.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwtOption.cs",
               "RelativeDocumentMoniker": "Repository\\JwtOption.cs",
@@ -653,23 +813,464 @@
               "RelativeToolTip": "Repository\\JwtOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:19:43.368Z"
+              "WhenOpened": "2024-10-30T15:19:43.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "JwelryController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
+              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
+              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\JwelryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:58:33.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "CategoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\CategoryRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\CategoryRepo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\CategoryRepo.cs",
-              "RelativeToolTip": "Repository\\CategoryRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:48:19.059Z"
+              "WhenOpened": "2024-11-01T09:11:23.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "RoleRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\RoleRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\RoleRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\RoleRepo.cs",
+              "RelativeToolTip": "Repository\\RoleRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:53:04.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IAccountRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IAccountRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IAccountRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IAccountRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IAccountRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:42:01.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICatrgoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\ICatrgoryRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICatrgoryRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\ICatrgoryRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\ICatrgoryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:48:09.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:32:34.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Login.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Authen\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Authen\\Login.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Authen\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T08:38:38.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:32:34.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:32:34.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:32:34.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:32:34.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:32:34.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:32:34.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\RoleAccount\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:32:34.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:28:15.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:28:15.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:28:15.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:28:15.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:28:15.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\SilverJwelry\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:28:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:27:18.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:27:18.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:27:18.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:27:17.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:27:17.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:27:17.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:27:17.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\Account\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:27:17.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:26:30.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml.cs",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Admin\\JwelryCategory\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:26:30.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T08:25:54.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T08:25:53.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJwtProvider.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:18:59.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IJewlryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJewlryRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IJewlryRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IJewlryRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IJewlryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:14:21.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IRoleRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IRoleRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IRoleRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Interfaces\\IRoleRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IRoleRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:39:23.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\Controllers\\WeatherForecastController.cs",
@@ -681,87 +1282,135 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml",
+              "DocumentIndex": 72,
+              "Title": "JwelryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwelryRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\JwelryRepo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwelryRepo.cs",
+              "RelativeToolTip": "Repository\\JwelryRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:37:49.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "Repository\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\JwtProvider.cs",
+              "RelativeToolTip": "Repository\\JwtProvider.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwD4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:19:26.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ServiceProfile.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Mapper\\ServiceProfile.cs",
+              "RelativeDocumentMoniker": "Repository\\Mapper\\ServiceProfile.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Mapper\\ServiceProfile.cs",
+              "RelativeToolTip": "Repository\\Mapper\\ServiceProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:08:02.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Error.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T09:13:05.364Z"
+              "WhenOpened": "2024-11-01T08:25:57.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml.cs",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Edit.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 77,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Response\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Repository\\Contract\\Response\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Response\\LoginResponse.cs",
+              "RelativeToolTip": "Repository\\Contract\\Response\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:13:05.457Z"
+              "WhenOpened": "2024-10-30T15:55:01.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml",
+              "DocumentIndex": 76,
+              "Title": "CreateAccountRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\CreateAccountRequest.cs",
+              "RelativeDocumentMoniker": "Repository\\Contract\\Request\\CreateAccountRequest.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\CreateAccountRequest.cs",
+              "RelativeToolTip": "Repository\\Contract\\Request\\CreateAccountRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:49:17.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Program.cs",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Program.cs",
+              "RelativeToolTip": "SilverRazorPage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:51:57.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "SilverRazorPage\\Pages\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T09:13:05.563Z"
+              "WhenOpened": "2024-10-31T08:52:36.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml.cs",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Details.cshtml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 80,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Repository\\Contract\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\Repository\\Contract\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "Repository\\Contract\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:13:05.68Z"
+              "WhenOpened": "2024-10-30T15:56:26.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T09:13:05.797Z"
+              "DocumentIndex": 81,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\appsettings.json",
+              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T09:46:58.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml.cs",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Delete.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:13:05.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml.cs",
-              "RelativeToolTip": "SilverRazorPage\\Pages\\JwelryPages\\Create.cshtml.cs",
+              "DocumentIndex": 82,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Chuy\u00EAn Ng\u00E0nh\\K\u00EC 8\\PRN231\\FALL24_PE_PRN231\\PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
+              "RelativeToolTip": "PRN231_PE_SE173539_SilverJewery\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:13:05.265Z"
+              "WhenOpened": "2024-10-30T19:43:27.218Z"
             }
           ]
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace BusinessObject.Models;
 
@@ -17,6 +18,7 @@ public partial class BranchAccount
 
     public int? RoleId { get; set; }
 
+    [JsonIgnore]
     public virtual Role? Role { get; set; }
 
     public virtual ICollection<SilverJewelry> SilverJewelries { get; set; } = new List<SilverJewelry>();

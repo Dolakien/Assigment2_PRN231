@@ -11,6 +11,7 @@ builder.Services.AddScoped<IAccountRepo, AccountRepo>();
 builder.Services.AddScoped<IJewlryRepo, JwelryRepo>();
 builder.Services.AddControllers().AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100));
 builder.Services.AddScoped<ICatrgoryRepo, CategoryRepo>();
+builder.Services.AddScoped<IRoleRepo, RoleRepo>();
 builder.Services.AddScoped<IJwtProvider, JwtProvider>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

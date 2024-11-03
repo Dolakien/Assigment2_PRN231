@@ -1,6 +1,48 @@
 [
   {
     "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.AccountController",
+    "Method": "GetAllAcount",
+    "RelativePath": "api/Account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.AccountController",
+    "Method": "RemoveAccount",
+    "RelativePath": "api/Account/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.AccountController",
+    "Method": "GetAccountById",
+    "RelativePath": "api/Account/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",
@@ -32,8 +74,98 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.AccountController",
+    "Method": "UpdateAccount",
+    "RelativePath": "api/Account/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "BusinessObject.Models.BranchAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.CategoryController",
     "Method": "GetAllCategories",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.CategoryController",
+    "Method": "RemoveCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/Category/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "BusinessObject.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Category/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Category/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "BusinessObject.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
+    "Method": "GetAllJwelries",
     "RelativePath": "api/Jwelry",
     "HttpMethod": "GET",
     "IsController": true,
@@ -43,7 +175,39 @@
   },
   {
     "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
-    "Method": "GetCategoryById",
+    "Method": "RemoveSilver",
+    "RelativePath": "api/Jwelry/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
+    "Method": "Createjwelry",
+    "RelativePath": "api/Jwelry/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "silverJewelry",
+        "Type": "BusinessObject.Models.SilverJewelry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
+    "Method": "GetJwelryById",
     "RelativePath": "api/Jwelry/id",
     "HttpMethod": "GET",
     "IsController": true,
@@ -53,6 +217,96 @@
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
+    "Method": "UpdateSilver",
+    "RelativePath": "api/Jwelry/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "silverJewelry",
+        "Type": "BusinessObject.Models.SilverJewelry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.RoleController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.RoleController",
+    "Method": "RemoveRole",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.RoleController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Role/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "BusinessObject.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.RoleController",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Role/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.RoleController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Role/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "BusinessObject.Models.Role",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

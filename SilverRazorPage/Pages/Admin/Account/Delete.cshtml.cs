@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
 
-namespace SilverRazorPage.Pages.JwelryPages
+namespace SilverRazorPage.Pages.Admin.Account
 {
     public class DeleteModel : PageModel
     {
@@ -20,40 +20,40 @@ namespace SilverRazorPage.Pages.JwelryPages
         }
 
         [BindProperty]
-        public Category Category { get; set; } = default!;
+        public BranchAccount BranchAccount { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FirstOrDefaultAsync(m => m.CategoryId == id);
+            var branchaccount = await _context.BranchAccounts.FirstOrDefaultAsync(m => m.AccountId == id);
 
-            if (category == null)
+            if (branchaccount == null)
             {
                 return NotFound();
             }
             else
             {
-                Category = category;
+                BranchAccount = branchaccount;
             }
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(string id)
+        public async Task<IActionResult> OnPostAsync(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FindAsync(id);
-            if (category != null)
+            var branchaccount = await _context.BranchAccounts.FindAsync(id);
+            if (branchaccount != null)
             {
-                Category = category;
-                _context.Categories.Remove(Category);
+                BranchAccount = branchaccount;
+                _context.BranchAccounts.Remove(BranchAccount);
                 await _context.SaveChangesAsync();
             }
 

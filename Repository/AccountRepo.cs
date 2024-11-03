@@ -13,6 +13,7 @@ using System.Linq.Expressions;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Identity.Client;
 
 namespace Repository
 {
@@ -72,20 +73,22 @@ namespace Repository
             }
         }
 
-
+        public  List<BranchAccount> GetAccounts()
+            => AccountDAO.Instance.GetBranchAccounts();
 
 
         public BranchAccount GetBranchAccount(string email, string password)
             => AccountDAO.Instance.GetBranchAccount(email, password);
 
-        public async Task<bool> removeAccount(BranchAccount account)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<BranchAccount> GetBranchAccountById(int id)
+            => AccountDAO.Instance.GetAccountByID(id);
+        
 
-        public async Task<BranchAccount?> updateAccount(string accountId)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<bool> removeAccount(int accountId)
+           => await AccountDAO.Instance.RemoveAccount(accountId);
+        
+
+        public async Task<BranchAccount?> updateAccount(BranchAccount account)
+           => await AccountDAO.Instance.UpdateAccount(account);
     }
 }

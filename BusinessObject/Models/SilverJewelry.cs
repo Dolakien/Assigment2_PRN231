@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace BusinessObject.Models;
 
@@ -23,7 +24,9 @@ public partial class SilverJewelry
 
     public int? AccountId { get; set; }
 
+    [JsonIgnore]
     public virtual BranchAccount? Account { get; set; }
 
+    [JsonIgnore]
     public virtual Category? Category { get; set; }
 }

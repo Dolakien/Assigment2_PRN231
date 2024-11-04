@@ -23,9 +23,6 @@ namespace Repository
         public bool removeJwelry(string jwelryId)
             => JwelryDAO.Instance.removeJwelry(jwelryId);
 
-        public List<SilverJewelry> SearchSilverJewelry(string? nameSearchTerm, decimal? metalWeight)
-            => JwelryDAO.Instance.SearchSilverJewelry(nameSearchTerm, metalWeight);
-
         public bool updateJwelry(SilverJewelry silverJewelry)
             => JwelryDAO.Instance.updateJwekry(silverJewelry);
 

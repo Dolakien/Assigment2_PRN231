@@ -30,7 +30,7 @@ namespace Repository
         public async Task<BranchAccount?> addAccount(CreateAccountRequest account)
         {
             var account1 = _mapper.Map<BranchAccount>(account);
-            var result = await AccountDAO.Instance.addAccount(account1);
+            var result = await AccountDAO.Instance.AddAccountAsync(account1);
             if (result != null)
             {
                 return result;
@@ -80,15 +80,15 @@ namespace Repository
         public BranchAccount GetBranchAccount(string email, string password)
             => AccountDAO.Instance.GetBranchAccount(email, password);
 
-        public async Task<BranchAccount> GetBranchAccountById(int id)
-            => AccountDAO.Instance.GetAccountByID(id);
+        public BranchAccount GetBranchAccountById(int id)
+            =>  AccountDAO.Instance.GetAccountByID(id);
         
 
-        public async Task<bool> removeAccount(int accountId)
-           => await AccountDAO.Instance.RemoveAccount(accountId);
+        public bool removeAccount(int accountId)
+           =>  AccountDAO.Instance.RemoveAccount(accountId);
         
 
-        public async Task<BranchAccount?> updateAccount(BranchAccount account)
-           => await AccountDAO.Instance.UpdateAccount(account);
+        public bool updateAccount(BranchAccount account)
+           =>  AccountDAO.Instance.UpdateAccount(account);
     }
 }

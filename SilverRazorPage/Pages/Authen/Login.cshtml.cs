@@ -10,6 +10,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace SilverRazorPage.Pages.Authen
 {
@@ -86,12 +87,12 @@ namespace SilverRazorPage.Pages.Authen
             var claims = token.Claims;
 
             // Ví dụ: Lấy các giá trị cần thiết từ claims
-            var account = claims.FirstOrDefault(c => c.Type == "nameid")?.Value; 
+            int accountId = int.Parse(claims.FirstOrDefault(c => c.Type == "nameid")?.Value ?? "0");
             var role = claims.FirstOrDefault(c => c.Type == "role")?.Value; 
             var email = claims.FirstOrDefault(c => c.Type == "email")?.Value;
 
             HttpContext.Session.SetString("role", role);
-
+            HttpContext.Session.SetInt32("AccountId", accountId);
         }
     }
 }

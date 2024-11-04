@@ -80,34 +80,45 @@ namespace DataAccessObject
              _context.BranchAccounts.Remove(account);
         }
 
-        public async Task<BranchAccount?> addAccount(BranchAccount account)
+        public async Task<BranchAccount?> AddAccountAsync(BranchAccount account)
         {
-            BranchAccount account1 = this.GetAccountByID(account.AccountId);
-            if (account1 == null)
+            // Kiểm tra xem tài khoản đã tồn tại trong cơ sở dữ liệu chưa
+            var existingAccount = await _context.BranchAccounts
+                                                .AsNoTracking() // Sử dụng AsNoTracking nếu không cần theo dõi
+                                                .FirstOrDefaultAsync(a => a.AccountId == account.AccountId);
+
+            if (existingAccount != null)
             {
-                try
-                {
-                    using var hmac = new HMACSHA512(); // Tạo HMAC với khóa ngẫu nhiên
-                    account.AccountPassword = Convert.ToBase64String(hmac.ComputeHash(Encoding.UTF8.GetBytes(account.AccountPassword)));
-
-                    // Lưu khóa vào cơ sở dữ liệu (có thể cần thêm cột cho khóa này)
-                    account.HmacKey = Convert.ToBase64String(hmac.Key); // Giả sử bạn có thuộc tính HmacKey trong model
-
-                    // Thêm account vào database
-                    _context.BranchAccounts.Add(account);
-                    await _context.SaveChangesAsync();
-                }
-                catch (Exception ex)
-                {
-                    // Xử lý ngoại lệ nếu cần
-                }
+                // Nếu tài khoản đã tồn tại, trả về tài khoản đó
+                return existingAccount;
             }
 
-            return account1;
+            try
+            {
+                using var hmac = new HMACSHA512(); // Tạo HMAC với khóa ngẫu nhiên
+                                                   // Mã hóa mật khẩu
+                account.AccountPassword = Convert.ToBase64String(hmac.ComputeHash(Encoding.UTF8.GetBytes(account.AccountPassword)));
+
+                // Lưu khóa HMAC vào cơ sở dữ liệu
+                account.HmacKey = Convert.ToBase64String(hmac.Key); // Giả sử bạn có thuộc tính HmacKey trong model
+
+                // Thêm tài khoản vào cơ sở dữ liệu
+                await _context.BranchAccounts.AddAsync(account);
+                await _context.SaveChangesAsync();
+
+                return account; // Trả về tài khoản vừa thêm
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ nếu cần
+                // Bạn có thể log lỗi hoặc ném lại một ngoại lệ cụ thể
+                throw new Exception("An error occurred while adding the account.", ex);
+            }
         }
 
 
-        public async Task<BranchAccount?> UpdateAccount(BranchAccount account)
+
+        public bool UpdateAccount(BranchAccount account)
         {
             BranchAccount account1 = this.GetAccountByID(account.AccountId);
             if (account1 != null)
@@ -116,16 +127,16 @@ namespace DataAccessObject
                 {
                     _context.Entry(account1).CurrentValues.SetValues(account);
                     _context.SaveChanges();
-                    return account1;
+                    return true;
                 }
                 catch (Exception ex)
                 {
                 }
             }
-            return null;
+            return false;
         }
 
-        public async Task<bool> RemoveAccount(int accountId)
+        public bool RemoveAccount(int accountId)
         {
             bool result = false;
             BranchAccount account1 = this.GetAccountByID(accountId);

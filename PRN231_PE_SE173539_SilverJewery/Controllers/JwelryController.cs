@@ -34,7 +34,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
         }
 
         [EnableQuery]
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult GetJwelryById([FromODataUri] string id)
         {
             var enitty = silverJewelryRepo.GetJwelry(id);

@@ -6,19 +6,22 @@
 }
 
 <h1>Silver Jewelry</h1>
-                @{
-                    var role = HttpContext.Session.GetString("role");
-                }
+@{
+    var role = HttpContext.Session.GetString("role");
+}
 
-                @if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
-                {
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-                }
+@if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
+{
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryId)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryName)
             </th>
@@ -41,38 +44,61 @@
                 @Html.DisplayNameFor(model => model.SilverJewelry[0].AccountId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].CategoryId)
+                Category Name
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.SilverJewelry) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.SilverJewelryName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SilverJewelryDescription)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MetalWeight)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductionYear)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AccountId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
-            </td>
+        @* Tạo từ điển ánh xạ CategoryId sang CategoryName *@
+        @{
+            var categoryDictionary = new Dictionary<string, string>(); // Thay đổi int thành string
+            foreach (var category in Model.Categories)
+            {
+                categoryDictionary[category.CategoryId.ToString()] = category.CategoryName; // Đảm bảo bạn chuyển đổi CategoryId thành string
+            }
+        }
+
+
+        @foreach (var item in Model.SilverJewelry)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SilverJewelryId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SilverJewelryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SilverJewelryDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MetalWeight)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductionYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AccountId)
+                </td>
+                <td>
+                    @* Lấy CategoryName từ từ điển dựa vào CategoryId *@
+                    @if (categoryDictionary.TryGetValue(item.CategoryId.ToString(), out var categoryName)) // Chuyển đổi item.CategoryId thành string
+                    {
+                        @categoryName
+                    }
+                    else
+                    {
+                        <span>Not Found</span> @* Hiển thị thông báo nếu không tìm thấy danh mục *@
+                    }
+                </td>
+
                 @if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
                 {
                     <td>
@@ -81,7 +107,7 @@
                         <a asp-page="./Delete" asp-route-id="@item.SilverJewelryId">Delete</a>
                     </td>
                 }
-        </tr>
-}
+            </tr>
+        }
     </tbody>
 </table>

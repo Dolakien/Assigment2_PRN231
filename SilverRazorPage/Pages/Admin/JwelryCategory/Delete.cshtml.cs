@@ -7,57 +7,61 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.JwelryCategory
 {
     public class DeleteModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public DeleteModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public DeleteModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
+
+        [BindProperty(SupportsGet = true)]
+        public string Id { get; set; } = string.Empty;
 
         [BindProperty]
         public Category Category { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(Id))
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FirstOrDefaultAsync(m => m.CategoryId == id);
-
-            if (category == null)
+            if (Category == null)
             {
-                return NotFound();
+                Category = new Category();
             }
-            else
+            Category.CategoryId = Id;
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Category/{Id}");
+            var options = new JsonSerializerOptions
             {
-                Category = category;
-            }
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            Category = JsonSerializer.Deserialize<Category>(data, options);
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(string id)
+
+        // For more information, see https://aka.ms/RazorPagesCRUD.
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.DeleteAsync($"http://localhost:5204/api/Category/delete/{Id}");
 
-            var category = await _context.Categories.FindAsync(id);
-            if (category != null)
+            if (response.IsSuccessStatusCode)
             {
-                Category = category;
-                _context.Categories.Remove(Category);
-                await _context.SaveChangesAsync();
+                return RedirectToPage("/Admin/JwelryCategory/Index"); // Redirect on successful login
             }
-
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Admin/JwelryCategory/Index"); // Redirect on successful login
         }
     }
 }

@@ -23,9 +23,32 @@ namespace SilverRazorPage.Pages.Admin.RoleAccount
             _configuration = configuration;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public int Id { get; set; }
 
         [BindProperty]
         public Role Role { get; set; } = default!;
+
+        public async Task<IActionResult> OnGet()
+        {
+            if (Role == null)
+            {
+                Role = new Role();
+            }
+            Role.RoleId = Id;
+
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Role/{Id}");
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            Role = JsonSerializer.Deserialize<Role>(data, options);
+
+            return Page();
+        }
+
+
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()

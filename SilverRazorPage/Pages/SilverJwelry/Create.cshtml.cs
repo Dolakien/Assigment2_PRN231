@@ -27,12 +27,11 @@ namespace SilverRazorPage.Pages.SilverJwelry
         [BindProperty]
         public SilverJewelry SilverJewelry { get; set; } = default!;
 
+        public int? AccountId { get; set; }
+
+
         public async Task<IActionResult> OnGetAsync()
         {
-            // Fetch Accounts from API
-            var accountResponse = await _httpClient.GetAsync("http://localhost:5204/api/Account");
-            var accountData = await accountResponse.Content.ReadAsStringAsync();
-            var accounts = JsonSerializer.Deserialize<List<BranchAccount>>(accountData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
             // Fetch Categories from API
             var categoryResponse = await _httpClient.GetAsync("http://localhost:5204/api/Category");
@@ -40,7 +39,6 @@ namespace SilverRazorPage.Pages.SilverJwelry
             var categories = JsonSerializer.Deserialize<List<Category>>(categoryData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
             // Populate dropdowns with AccountName and CategoryName
-            ViewData["AccountId"] = new SelectList(accounts, "AccountId", "FullName"); // Adjust "FullName" if necessary
             ViewData["CategoryId"] = new SelectList(categories, "CategoryId", "CategoryName"); // Adjust "CategoryName" if necessary
 
             return Page();
@@ -56,6 +54,13 @@ namespace SilverRazorPage.Pages.SilverJwelry
             {
                 return Page();
             }
+
+            AccountId = HttpContext.Session.GetInt32("AccountId");
+            if (SilverJewelry == null)
+            {
+                SilverJewelry = new SilverJewelry();
+            }
+            SilverJewelry.AccountId = AccountId;
 
             // Serialize LoginRequest to JSON
             var jsonContent = JsonContent.Create(SilverJewelry);

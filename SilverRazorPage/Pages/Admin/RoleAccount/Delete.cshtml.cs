@@ -7,57 +7,56 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.RoleAccount
 {
     public class DeleteModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public DeleteModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public DeleteModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
+
+        [BindProperty(SupportsGet = true)]
+        public int Id { get; set; }
 
         [BindProperty]
         public Role Role { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            if (id == null)
+            if (Role == null)
             {
-                return NotFound();
+                Role = new Role();
             }
-
-            var role = await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
-
-            if (role == null)
+            Role.RoleId = Id;
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Role/{Id}");
+            var options = new JsonSerializerOptions
             {
-                return NotFound();
-            }
-            else
-            {
-                Role = role;
-            }
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            Role = JsonSerializer.Deserialize<Role>(data, options);
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int? id)
+
+        // For more information, see https://aka.ms/RazorPagesCRUD.
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.DeleteAsync($"http://localhost:5204/api/Role/delete/{Id}");
 
-            var role = await _context.Roles.FindAsync(id);
-            if (role != null)
+            if (response.IsSuccessStatusCode)
             {
-                Role = role;
-                _context.Roles.Remove(Role);
-                await _context.SaveChangesAsync();
+                return RedirectToPage("/Admin/RoleAccount/Index"); // Redirect on successful login
             }
-
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Admin/RoleAccount/Index"); // Redirect on successful login
         }
     }
 }

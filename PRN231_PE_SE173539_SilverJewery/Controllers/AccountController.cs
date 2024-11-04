@@ -47,9 +47,9 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
         }
 
         [HttpPut("update")]
-        public async Task<IActionResult> UpdateAccount([FromBody] BranchAccount account)
+        public IActionResult UpdateAccount([FromBody] BranchAccount account)
         {
-            var Response = await _accountRepo.updateAccount(account);
+            var Response = _accountRepo.updateAccount(account);
 
             return Response != null
                 ? Ok(Response)
@@ -57,10 +57,10 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
         }
 
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> RemoveAccount(int id)
+        [HttpDelete("delete/{id}")]
+        public IActionResult RemoveAccount(int id)
         {
-            var Response = await _accountRepo.removeAccount(id);
+            var Response =  _accountRepo.removeAccount(id);
 
             return Response != null
                 ? Ok(Response)
@@ -68,7 +68,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
         }
 
         [EnableQuery]
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult GetAccountById([FromODataUri] int id)
         {
             var enitty = _accountRepo.GetBranchAccountById(id);

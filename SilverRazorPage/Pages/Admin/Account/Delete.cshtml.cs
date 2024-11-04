@@ -7,57 +7,56 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.Account
 {
     public class DeleteModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public DeleteModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public DeleteModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
+
+        [BindProperty(SupportsGet = true)]
+        public int Id { get; set; }
 
         [BindProperty]
         public BranchAccount BranchAccount { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            if (id == null)
+            if (BranchAccount == null)
             {
-                return NotFound();
+                BranchAccount = new BranchAccount();
             }
-
-            var branchaccount = await _context.BranchAccounts.FirstOrDefaultAsync(m => m.AccountId == id);
-
-            if (branchaccount == null)
+            BranchAccount.AccountId = Id;
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Account/{Id}");
+            var options = new JsonSerializerOptions
             {
-                return NotFound();
-            }
-            else
-            {
-                BranchAccount = branchaccount;
-            }
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            BranchAccount = JsonSerializer.Deserialize<BranchAccount>(data, options);
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int? id)
+
+        // For more information, see https://aka.ms/RazorPagesCRUD.
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            // Call the API for login
+            HttpResponseMessage response = await _httpClient.DeleteAsync($"http://localhost:5204/api/Account/delete/{Id}");
 
-            var branchaccount = await _context.BranchAccounts.FindAsync(id);
-            if (branchaccount != null)
+            if (response.IsSuccessStatusCode)
             {
-                BranchAccount = branchaccount;
-                _context.BranchAccounts.Remove(BranchAccount);
-                await _context.SaveChangesAsync();
+                return RedirectToPage("/Admin/Account/Index"); // Redirect on successful login
             }
-
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Admin/Account/Index"); // Redirect on successful login
         }
     }
 }

@@ -42,6 +42,14 @@ namespace SilverRazorPage.Pages.SilverJwelry
             }
             SilverJewelry.SilverJewelryId = Id;
 
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Jwelry/{Id}");
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            SilverJewelry = JsonSerializer.Deserialize<SilverJewelry>(data, options);
+
             // Fetch Categories from API
             var categoryResponse = await _httpClient.GetAsync("http://localhost:5204/api/Category");
             var categoryData = await categoryResponse.Content.ReadAsStringAsync();

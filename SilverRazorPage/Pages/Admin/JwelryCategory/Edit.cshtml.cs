@@ -23,7 +23,7 @@ namespace SilverRazorPage.Pages.Admin.JwelryCategory
         [BindProperty]
         public Category Category { get; set; } = default!;
 
-        public IActionResult OnGet()
+        public async Task<IActionResult> OnGet()
         {
             if (string.IsNullOrEmpty(Id))
             {
@@ -35,6 +35,14 @@ namespace SilverRazorPage.Pages.Admin.JwelryCategory
                 Category = new Category();
             }
             Category.CategoryId = Id;
+
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Category/{Id}");
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            Category = JsonSerializer.Deserialize<Category>(data, options);
 
             return Page();
         }

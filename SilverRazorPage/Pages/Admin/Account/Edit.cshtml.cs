@@ -10,6 +10,7 @@ using BusinessObject.Models;
 using DataAccessObject;
 using Repository.Contract.Request;
 using System.Text.Json;
+using Microsoft.IdentityModel.Tokens;
 
 namespace SilverRazorPage.Pages.Admin.Account
 {
@@ -24,12 +25,28 @@ namespace SilverRazorPage.Pages.Admin.Account
             _configuration = configuration;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public int Id { get; set; }
 
         [BindProperty]
         public BranchAccount BranchAccount { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync()
         {
+            if (BranchAccount == null)
+            {
+                BranchAccount = new BranchAccount();
+            }
+            BranchAccount.AccountId = Id;
+
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Account/{Id}");
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            BranchAccount = JsonSerializer.Deserialize<BranchAccount>(data, options);
+
             // Fetch Accounts from API
             var RoleResponse = await _httpClient.GetAsync("http://localhost:5204/api/Role");
             var RoleData = await RoleResponse.Content.ReadAsStringAsync();

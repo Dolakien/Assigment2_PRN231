@@ -10,6 +10,7 @@ namespace SilverRazorPage.Pages.Authen
             // Xóa thông tin đăng nhập khỏi session
             HttpContext.Session.Remove("JwtToken");
             HttpContext.Session.Remove("role");
+            HttpContext.Session.Remove("AccountId");
 
             return RedirectToPage("/Authen/Login"); // Chuyển hướng về trang Index
         }

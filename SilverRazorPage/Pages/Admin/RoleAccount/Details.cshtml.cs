@@ -7,36 +7,42 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.RoleAccount
 {
     public class DetailsModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public DetailsModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public DetailsModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public int Id { get; set; } 
+
+        [BindProperty]
         public Role Role { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
-        {
-            if (id == null)
+        public async Task<IActionResult> OnGetAsync()
+        { 
+            if (Role == null)
             {
-                return NotFound();
+                Role = new Role();
             }
+            Role.RoleId = Id;
 
-            var role = await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
-            if (role == null)
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Role/{Id}");
+            var options = new JsonSerializerOptions
             {
-                return NotFound();
-            }
-            else
-            {
-                Role = role;
-            }
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            Role = JsonSerializer.Deserialize<Role>(data, options);
             return Page();
         }
     }

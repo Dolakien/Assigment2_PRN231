@@ -27,7 +27,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
         }
 
         [EnableQuery]
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult GetRoleById([FromODataUri] int id)
         {
             var enitty = _roleRepo.GetRole(id);
@@ -68,7 +68,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public IActionResult RemoveRole(int id)
         {
             var Response = _roleRepo.removeRole(id);

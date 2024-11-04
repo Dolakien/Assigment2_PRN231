@@ -7,36 +7,47 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BusinessObject.Models;
 using DataAccessObject;
+using System.Text.Json;
 
 namespace SilverRazorPage.Pages.Admin.JwelryCategory
 {
     public class DetailsModel : PageModel
     {
-        private readonly DataAccessObject.SilverJewelry2023DbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
-        public DetailsModel(DataAccessObject.SilverJewelry2023DbContext context)
+        public DetailsModel(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
+            _httpClient = httpClient;
+            _configuration = configuration;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public string Id { get; set; } = string.Empty;
+
+        [BindProperty]
         public Category Category { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(Id))
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FirstOrDefaultAsync(m => m.CategoryId == id);
-            if (category == null)
+            if (Category == null)
             {
-                return NotFound();
+                Category = new Category();
             }
-            else
+            Category.CategoryId = Id;
+
+            HttpResponseMessage response = await _httpClient.GetAsync($"http://localhost:5204/api/Category/{Id}");
+            var options = new JsonSerializerOptions
             {
-                Category = category;
-            }
+                PropertyNameCaseInsensitive = true,
+            };
+            var data = await response.Content.ReadAsStringAsync();
+            Category = JsonSerializer.Deserialize<Category>(data, options);
             return Page();
         }
     }

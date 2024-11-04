@@ -15,6 +15,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="BranchAccount.AccountId" />
             <div class="form-group">
+                <label asp-for="BranchAccount.AccountId" class="control-label"></label>
+                <input asp-for="BranchAccount.AccountId" class="form-control" readonly style="opacity: 0.6;" />
+                <span asp-validation-for="BranchAccount.AccountId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="BranchAccount.FullName" class="control-label"></label>
                 <input asp-for="BranchAccount.FullName" class="form-control" />
                 <span asp-validation-for="BranchAccount.FullName" class="text-danger"></span>

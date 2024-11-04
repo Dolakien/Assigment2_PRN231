@@ -6,96 +6,66 @@
 }
 
 <h1>Silver Jewelry</h1>
+
 @{
     var role = HttpContext.Session.GetString("role");
 }
 
-@if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
-{
-    <p>
-        <a asp-page="Create">Create New</a>
-    </p>
-}
+<div class="d-flex justify-content-between mb-3">
+    @if (!string.IsNullOrEmpty(role) && role.Equals("Administrator", StringComparison.OrdinalIgnoreCase))
+    {
+        <a asp-page="Create" class="btn btn-primary">Create New</a>
+    }
+
+    <form method="get" class="form-inline" id="searchForm">
+        <input type="text" name="searchTerm" id="searchTerm" placeholder="Search by Name or Weight" class="form-control mr-2" />
+        <button type="button" class="btn btn-secondary" onclick="performSearch()">Search</button>
+    </form>
+</div>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryDescription)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].MetalWeight)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].ProductionYear)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].CreatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SilverJewelry[0].AccountId)
-            </th>
-            <th>
-                Category Name
-            </th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryId)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryName)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].SilverJewelryDescription)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].MetalWeight)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].Price)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].ProductionYear)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].CreatedDate)</th>
+            <th>@Html.DisplayNameFor(model => model.SilverJewelry[0].AccountId)</th>
+            <th>Category Name</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @* Tạo từ điển ánh xạ CategoryId sang CategoryName *@
         @{
-            var categoryDictionary = new Dictionary<string, string>(); // Thay đổi int thành string
+            var categoryDictionary = new Dictionary<string, string>();
             foreach (var category in Model.Categories)
             {
-                categoryDictionary[category.CategoryId.ToString()] = category.CategoryName; // Đảm bảo bạn chuyển đổi CategoryId thành string
+                categoryDictionary[category.CategoryId.ToString()] = category.CategoryName;
             }
         }
-
 
         @foreach (var item in Model.SilverJewelry)
         {
             <tr>
+                <td>@Html.DisplayFor(modelItem => item.SilverJewelryId)</td>
+                <td>@Html.DisplayFor(modelItem => item.SilverJewelryName)</td>
+                <td>@Html.DisplayFor(modelItem => item.SilverJewelryDescription)</td>
+                <td>@Html.DisplayFor(modelItem => item.MetalWeight)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductionYear)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.AccountId)</td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.SilverJewelryId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SilverJewelryName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SilverJewelryDescription)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MetalWeight)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ProductionYear)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CreatedDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AccountId)
-                </td>
-                <td>
-                    @* Lấy CategoryName từ từ điển dựa vào CategoryId *@
-                    @if (categoryDictionary.TryGetValue(item.CategoryId.ToString(), out var categoryName)) // Chuyển đổi item.CategoryId thành string
+                    @if (categoryDictionary.TryGetValue(item.CategoryId.ToString(), out var categoryName))
                     {
                         @categoryName
                     }
                     else
                     {
-                        <span>Not Found</span> @* Hiển thị thông báo nếu không tìm thấy danh mục *@
+                        <span>Not Found</span>
                     }
                 </td>
 
@@ -111,3 +81,14 @@
         }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        function performSearch() {
+            const searchTerm = document.getElementById("searchTerm").value;
+            if (searchTerm) {
+                window.location.href = `?searchTerm=${searchTerm}`;
+            }
+        }
+    </script>
+}

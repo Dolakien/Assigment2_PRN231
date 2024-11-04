@@ -45,6 +45,14 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
             return Ok(enitty);
         }
 
+        [EnableQuery]
+        [HttpGet("search")]
+        public IActionResult SearchJewelries([FromQuery] string? nameSearchTerm, [FromQuery] decimal? metalWeight)
+        {
+            List<SilverJewelry> results = silverJewelryRepo.SearchSilverJewelry(nameSearchTerm, metalWeight);
+            return Ok(results);
+        }
+
         [HttpPost("create")]
         public IActionResult Createjwelry([FromBody] SilverJewelry silverJewelry)
         {

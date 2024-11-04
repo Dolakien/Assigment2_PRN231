@@ -223,6 +223,27 @@
   },
   {
     "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
+    "Method": "SearchJewelries",
+    "RelativePath": "api/Jwelry/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameSearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "metalWeight",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_PE_SE173539_SilverJewery.Controllers.JwelryController",
     "Method": "UpdateSilver",
     "RelativePath": "api/Jwelry/update",
     "HttpMethod": "PUT",

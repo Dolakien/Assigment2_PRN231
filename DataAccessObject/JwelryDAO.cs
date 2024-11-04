@@ -94,5 +94,23 @@ namespace DataAccessObject
             return _context.SilverJewelries.SingleOrDefault(m => m.SilverJewelryId.Equals(jwelryId));
 
         }
+
+        public List<SilverJewelry> SearchSilverJewelry(string? nameSearchTerm, decimal? metalWeight)
+        {
+            var query = _context.SilverJewelries.AsQueryable();
+
+            if (!string.IsNullOrEmpty(nameSearchTerm))
+            {
+                query = query.Where(s => s.SilverJewelryName.Contains(nameSearchTerm));
+            }
+
+            if (metalWeight.HasValue)
+            {
+                query = query.Where(s => s.MetalWeight == metalWeight.Value);
+            }
+
+            return query.ToList();
+        }
+
     }
 }

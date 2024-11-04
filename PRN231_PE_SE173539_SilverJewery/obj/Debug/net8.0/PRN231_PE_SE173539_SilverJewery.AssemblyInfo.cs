@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN231_PE_SE173539_SilverJewery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c3c263304243dc9869a9fcb5426b10e0b4cc43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c3ff4ac59443c4217ab48cfd370ec3ddcbb5146")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN231_PE_SE173539_SilverJewery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN231_PE_SE173539_SilverJewery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,6 +13,7 @@ namespace Repository.Interfaces
         public List<SilverJewelry> GetJwelries();
         public bool addJwelry(SilverJewelry silverJewelry);
         public bool removeJwelry(string jwelryId);
-        public bool updateJwelry(SilverJewelry silverJewelry); 
+        public bool updateJwelry(SilverJewelry silverJewelry);
+        public List<SilverJewelry> SearchSilverJewelry(string? nameSearchTerm, decimal? metalWeight);
     }
 }

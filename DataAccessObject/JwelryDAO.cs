@@ -36,7 +36,8 @@ namespace DataAccessObject
             return _context.SilverJewelries.ToList();
         }
 
-        public bool addJwelry(SilverJewelry silverJewelry) {
+        public bool addJwelry(SilverJewelry silverJewelry)
+        {
             bool result = false;
             SilverJewelry silverJewelry1 = this.GetSilverJewelry(silverJewelry.SilverJewelryId);
             if (silverJewelry1 == null)
@@ -54,7 +55,8 @@ namespace DataAccessObject
             return result;
         }
 
-        public bool updateJwekry(SilverJewelry silverJewelry) {
+        public bool updateJwekry(SilverJewelry silverJewelry)
+        {
             bool result = false;
             SilverJewelry silverJewelry1 = this.GetSilverJewelry(silverJewelry.SilverJewelryId);
             if (silverJewelry1 != null)
@@ -72,7 +74,8 @@ namespace DataAccessObject
             return result;
         }
 
-        public bool removeJwelry(string jwelryId) {
+        public bool removeJwelry(string jwelryId)
+        {
             bool result = false;
             SilverJewelry silverJewelry1 = this.GetSilverJewelry(jwelryId);
             if (silverJewelry1 != null)
@@ -90,9 +93,28 @@ namespace DataAccessObject
             return result;
         }
 
-        public SilverJewelry GetSilverJewelry(string jwelryId) {
+        public SilverJewelry GetSilverJewelry(string jwelryId)
+        {
             return _context.SilverJewelries.SingleOrDefault(m => m.SilverJewelryId.Equals(jwelryId));
 
         }
+
+        public List<SilverJewelry> SearchSilverJewelry(string? nameSearchTerm, decimal? metalWeight)
+        {
+            var query = _context.SilverJewelries.AsQueryable();
+
+            if (!string.IsNullOrEmpty(nameSearchTerm))
+            {
+                query = query.Where(s => s.SilverJewelryName.Contains(nameSearchTerm));
+            }
+
+            if (metalWeight.HasValue)
+            {
+                query = query.Where(s => s.MetalWeight == metalWeight.Value);
+            }
+
+            return query.ToList();
+        }
+
     }
 }

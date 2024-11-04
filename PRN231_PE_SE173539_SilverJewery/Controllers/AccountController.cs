@@ -13,7 +13,7 @@ namespace PRN231_PE_SE173539_SilverJewery.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountController : ControllerBase
+    public class AccountController : ODataController
     {
         public readonly IAccountRepo _accountRepo;
 
